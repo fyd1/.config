@@ -1,0 +1,8 @@
+#!/bin/sh
+
+clear
+make -f "$HOME/.config/Makefile"
+
+if [ $? != 2 ]; then
+    main
+fi
